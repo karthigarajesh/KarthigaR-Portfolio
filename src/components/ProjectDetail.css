@@ -1,0 +1,23 @@
+/* src/components/ProjectDetail.css */
+.project-detail-bg {
+  background-color: #000; /* black */
+  min-height: 100vh;
+}
+
+.text-gold {
+  color: #FFD700; /* gold */
+}
+
+.list-style-circle li {
+  list-style: circle;
+}
+
+.carousel img {
+  border: 2px solid #FFD700;
+}
+.btn-outline-warning:hover {
+  background-color: #FFD700;
+  color: #000;
+  border-color: #FFD700;
+  transition: all 0.3s ease-in-out;
+}

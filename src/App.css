@@ -36,3 +36,120 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  text-decoration: underline;
+  color: #0dcaf0 !important;
+}
+
+#home {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+}
+
+.hover-shadow:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+.carousel-item img {
+  border-radius: 12px;
+}
+.hover-gold:hover {
+  color: #FFD700 !important;
+}
+.card:hover {
+  border: 1px solid #FFD700 !important;
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+  transition: all 0.3s ease;
+}
+/* General font setup */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #000;
+  color: #ddd;
+  scroll-behavior: smooth;
+}
+
+h1, .display-4 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  color: #0f0f0e;
+  font-weight: 700;
+}
+
+h2, h3, .card-title {
+  font-family: 'Poppins', sans-serif;
+  color: #111110;
+  font-weight: 600;
+}
+
+.lead, p, li {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 1.05rem;
+}
+
+.btn, .navbar-brand, .nav-link {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+
+/* === Project Cards === */
+.project-card {
+  background-color: #3a3939 !important; /* Force black background */
+  border: 2px solid #FFD700 !important; /* Golden border */
+  color: #FFD700 !important;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.2);
+}
+
+.project-card .card-body {
+  background-color: transparent !important; /* Remove Bootstrap white */
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.4);
+}
+
+.project-card .card-title {
+  color: #FFD700 !important;
+}
+
+.project-card svg {
+  color: #FFD700 !important;
+}
+
+.card:hover {
+  border: 1px solid #FFD700 !important;
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+
+/* Blinking White Glow */
+@keyframes white-blink {
+  0% {
+    box-shadow: 0 0 10px #e6d115;
+    border-color: #f3e414;
+  }
+  100% {
+    box-shadow: 0 0 20px #e6c20c;
+    border-color: #e7e012;
+  }
+}
+
+
+
+
+
+.hover-shadow:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.6);
+  transition: all 0.3s ease;
+}
