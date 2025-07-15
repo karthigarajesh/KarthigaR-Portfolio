@@ -52,7 +52,7 @@ const Hero = () => {
               View My Projects
             </Button> */}
             <Button
-              href="/KarthigaR-Portfolio/KarthigaRajesh-CV.pdf"
+              href="/KarthigaR-Portfolio/Karthiga_Resume.pdf"
               variant="outline-warning"
               size="lg"
               download
